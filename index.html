@@ -63,7 +63,7 @@
     }
 
     h3 {
-      color: #748F68;
+      color: #FFFFFF;
       font-size: 20px;
       margin-left: 10px;
       text-align: left;
@@ -82,30 +82,33 @@
     #about {
       margin-top: 40px;
       margin-left: 10px;
-      height: 350px;
+      height: 370px;
       float: left;
       background-color: ;
     }
-    
+
     #bbt {
-      margin-top: 10px;
+      margin-top: 31px;
       margin-left: 20px;
       height: 150px;
       float: right;
       background-color: #748F68;
       padding: 10px 10px 250px 10px;
     }
-    
+
     #contact {
-     margin-top: 0px;
+      margin-top: 0px;
       margin-left: 0px;
-      height: 150px;
+      height: 450px;
       width: 100%;
       float: left;
       background-color: #A4B49D;
       padding: 10px;
     }
     
+    form {
+      margin-left: 10px;
+    }
   </style>
   <body>
     <div id="top">
@@ -121,7 +124,7 @@
             <li><a href="">ABOUT</a></li>
           </ul>
         </div>
-      </div>-
+      </div>
     </div>
     <div id="about">
       <h2>
@@ -141,13 +144,23 @@
     </div>
     <div id="contact">
       <h2>
-        <i>Thanks for visiting my website!</i>
+        <i>Thanks for visiting my website.</i>
       </h2>
       <h3>
-        Contact me<br>
+        Contact me for any inquiries<br>
       </h3>
       <p>
-      <a href="mailto:c273wong@uwaterloo.ca">Email</a>
+        <a href="mailto:c273wong@uwaterloo.ca">Email Me</a>
+        <br>Or leave your question below.
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="comment">Comment:</label><br>
+        <input type="text" id="comment" name="comment" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form>
       </p>
     </div>
   </body>
