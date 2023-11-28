@@ -8,6 +8,8 @@
     #header,
     #nav,
     #div,
+    #about,
+    #bbt,
     figure,
     figcaption {
       display: block;
@@ -46,7 +48,7 @@
     }
 
     h1 {
-      font-family: "Times New Roman", Times, serif;
+      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
       text-indent: -9999px;
       width: 940px;
       height: 165px;
@@ -54,38 +56,56 @@
     }
 
     h2 {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 60;
+      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+      font-size: 60px;
       color: black;
+      margin-left: 10px;
     }
 
     h3 {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 20;
-      color: white;
+      color: #748F68;
+      font-size: 20px;
+      margin-left: 10px;
+      text-align: left;
     }
 
     body {
-      font-family: "Times New Roman", Times, serif;
+      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
       background: #D6E6D1;
     }
 
     p {
-      color: blue;
-    }
-
-    .profile {
-      background: #55505C;
-      float: left;
-      width: 100%;
-      border-right: 1px solid #eeeeee;
+      color: #000000;
+      margin-left: 10px;
     }
 
     #about {
       margin-top: 40px;
-      height: 150px;
+      margin-left: 10px;
+      height: 350px;
       float: left;
+      background-color: ;
     }
+    
+    #bbt {
+      margin-top: 10px;
+      margin-left: 20px;
+      height: 150px;
+      float: right;
+      background-color: #748F68;
+      padding: 10px 10px 250px 10px;
+    }
+    
+    #contact {
+     margin-top: 0px;
+      margin-left: 0px;
+      height: 150px;
+      width: 100%;
+      float: left;
+      background-color: #A4B49D;
+      padding: 10px;
+    }
+    
   </style>
   <body>
     <div id="top">
@@ -96,18 +116,39 @@
         <div id="nav">
           <ul>
             <li><a href="">HOME</a></li>
-            <li><a href="">RESUME</a></li>
+            <li><a href="">PORTFOLIO</a></li>
             <li><a href="">GAMING</a></li>
             <li><a href="">ABOUT</a></li>
           </ul>
         </div>
-      </div>
+      </div>-
     </div>
     <div id="about">
       <h2>
-        I like painting, playing video games, and bubble tea!
+        I like <a href="https://www.instagram.com/picasslio/" target="_blank" alt="picasslio instagram">painting</a>,<br>
+        playing video games,<br>
+        and bubble tea!
       </h2>
+    </div>
+    <div id="bbt">
+      <h3>
+        Guess how many Bubble Teas I drank in 2022?
+      </h3>
       <iframe width="450" height="270" src="https://www.youtube.com/embed/7KZ8D2bSxsU" title="bubble tea 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p>
+        My go-to order is a Jasmine Milk Tea with Tapioca!
+      </p>
+    </div>
+    <div id="contact">
+      <h2>
+        <i>Thanks for visiting my website!</i>
+      </h2>
+      <h3>
+        Contact me<br>
+      </h3>
+      <p>
+      <a href="mailto:c273wong@uwaterloo.ca">Email</a>
+      </p>
     </div>
   </body>
 </html>
